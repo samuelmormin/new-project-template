@@ -1,0 +1,33 @@
+{
+  "name": "new-project-template",
+  "version": "1.0.0",
+  "description": "A template to optimize workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelmormin/new-project-template.git"
+  },
+  "author": "Samuel Mormin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelmormin/new-project-template/issues"
+  },
+  "homepage": "https://github.com/samuelmormin/new-project-template#readme",
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-stylus": "^2.6.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp-connect-php": "^1.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "http-proxy": "^1.16.2"
+  }
+}
